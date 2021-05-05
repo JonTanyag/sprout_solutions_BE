@@ -1,0 +1,9 @@
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\obj\Debug\netcoreapp3.1\sprout.data.csprojAssemblyReference.cache
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\obj\Debug\netcoreapp3.1\sprout.data.AssemblyInfoInputs.cache
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\obj\Debug\netcoreapp3.1\sprout.data.AssemblyInfo.cs
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\obj\Debug\netcoreapp3.1\sprout.data.csproj.CoreCompileInputs.cache
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\bin\Debug\netcoreapp3.1\sprout.data.deps.json
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\bin\Debug\netcoreapp3.1\sprout.data.dll
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\bin\Debug\netcoreapp3.1\sprout.data.pdb
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\obj\Debug\netcoreapp3.1\sprout.data.dll
+C:\ThinkingCap\dev\exam\sprout_solutions\sprout_solutions_BE\sprout_solutions\sprout.data\obj\Debug\netcoreapp3.1\sprout.data.pdb

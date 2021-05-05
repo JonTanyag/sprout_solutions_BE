@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2szJsfMiQQj1BtPsYRZmP7n7xhW+BI7NtZr/eY/M25G1mZLIlHflc/X8IT5fIYJ5979ClsY93PDvJ85Dq5GPmw==",
+  "success": true,
+  "projectFilePath": "C:\\ThinkingCap\\dev\\exam\\sprout_solutions\\sprout_solutions_BE\\sprout_solutions\\sprout_solutions\\sprout_solutions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jon\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Jon\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Jon\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Jon\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Jon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Jon\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
