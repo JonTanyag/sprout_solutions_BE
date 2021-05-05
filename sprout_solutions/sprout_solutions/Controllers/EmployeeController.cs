@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using sprout.data.Entity;
+using sprout.data.Models;
 using sprout.service.Interface;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -22,7 +23,7 @@ namespace sprout_solutions.Controllers
 
         // GET: api/<controller>
         [HttpGet]
-        public IEnumerable<Employee> Get()
+        public EmployeeModel Get()
         {
             var employees = _employeeService.GetAll();
 

@@ -1,4 +1,5 @@
 ﻿using sprout.data.Entity;
+using sprout.data.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,7 +8,7 @@ namespace sprout.service.Interface
 {
     public interface IEmployeeService
     {
-        List<Employee> GetAll();
+        EmployeeModel GetAll();
         Employee GetById(string id);
         void CreateEmployee(Employee employee);
         void EditDetails(Employee employee);

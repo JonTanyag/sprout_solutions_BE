@@ -7,17 +7,7 @@ namespace sprout.data.Entity
 {
     public class Employee
     {
-        //public Employee(string id, string name, string birthday, string tin, double basicSalary, double netSalary, EmployeeType employeeType)
-        //{
-        //    Id = id;
-        //    Name = name;
-        //    Birthday = birthday;
-        //    TIN = tin;
-        //    BasicSalary = basicSalary;
-        //    NetSalary = netSalary;
-        //    EmployeeType = employeeType;
-        //}
-
+        
         public string Id { get; set; }
         public string Name { get; set; }
         public string Birthday { get; set; }

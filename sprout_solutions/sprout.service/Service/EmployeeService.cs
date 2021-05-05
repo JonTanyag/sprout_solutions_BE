@@ -1,4 +1,5 @@
 ﻿using sprout.data.Entity;
+using sprout.data.Models;
 using sprout.service.Interface;
 using System;
 using System.Collections.Generic;
@@ -84,11 +85,14 @@ namespace sprout.service.Service
             throw new NotImplementedException();
         }
 
-        public List<Employee> GetAll()
+        public EmployeeModel GetAll()
         {
             var employees = JsonSerializer.Deserialize<List<Employee>>(jsonString);
 
-            return employees;
+            EmployeeModel emp = new EmployeeModel();
+            emp.Employees = employees;
+
+            return emp;
         }
 
         public Employee GetById(string id)
