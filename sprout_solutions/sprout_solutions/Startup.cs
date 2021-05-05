@@ -17,6 +17,7 @@ namespace sprout_solutions
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,6 +28,8 @@ namespace sprout_solutions
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
+
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddControllers();
             services.AddSwaggerGen();
@@ -49,6 +52,12 @@ namespace sprout_solutions
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true) // allow any origin
+                .AllowCredentials());
 
             app.UseAuthorization();
 
