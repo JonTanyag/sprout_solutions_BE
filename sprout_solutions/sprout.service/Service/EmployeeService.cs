@@ -17,7 +17,7 @@ namespace sprout.service.Service
         {
             var list = JsonSerializer.Deserialize<List<Employee>>(jsonString);
             var employee = list.FirstOrDefault(x => x.Id == id);
-            var numOfWorkingDays = 22 - days;
+            var numOfWorkingDays = 23 - days;
             if (employee.EmployeeType == 0)
             {
                 //regular
